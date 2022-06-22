@@ -1,0 +1,10 @@
+import math
+print('='*40)
+print('Convertedor de dinheiro.')
+r = float(input('Quantos reais você tem na carteira? '))
+print('='*40)
+print('Convertendo em dolar e Euro...')
+print('='*40)
+print(f'Em Dólar você tem: {r/4.87:.2f}$')
+print(f'Em Euro você tem: {r/5.23:.2f}€')
+print('='*40)

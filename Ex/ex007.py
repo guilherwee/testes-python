@@ -1,0 +1,16 @@
+import math
+print('==========================================================')
+print('Olá, seja bem vindo ao programa de calcular médias bimestrais baseando-se em 5 notas.')
+n1 = float(input('Para receber a sua média, digite sua primeira nota: '))
+n2 = float(input('Agora a segunda nota: '))
+n3 = float(input('a terceira: '))
+n4 = float(input('a quarta: '))
+n5 = float(input('E por fim, a quinta nota: '))
+m = (n1 + n2 + n3 + n4 + n5) / 5
+print('==========================================================')
+print('Calculando...')
+print('==========================================================')
+print(f'A sua média neste bimestre foi: {m}.')
+print('==========================================================')
+print('Foi um prazer fazer este calculo pra voce! Bom dia/tarde/noite.')
+print('==========================================================')
