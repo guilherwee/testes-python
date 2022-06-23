@@ -1,4 +1,3 @@
-import math
 p = float(input('Qual é o preço do produto? R$'))
 per = (p*5)/100
 calc = p-per
